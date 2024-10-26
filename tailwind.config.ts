@@ -10,8 +10,18 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        text: "var(--text)",
+        borderColor: "var(--border-color)",
+        secondaryTextColor: "var(--secondary-text-color)",
       },
+      screens: {
+        mid: "630px",
+        midLg: "950px",
+      },
+    },
+    fontFamily: {
+      Montserrat: ["Montserrat", "sans-serif"],
+      Epilogue: ["Epilogue", "sans-serif"],
     },
   },
   plugins: [],

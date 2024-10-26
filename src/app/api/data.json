@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Crop T-shirt",
+      "image": "https://images.pexels.com/photos/27919184/pexels-photo-27919184/free-photo-of-a-man-with-his-hands-in-pockets.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 1599,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Leather Jacket",
+      "image": "https://images.pexels.com/photos/17049701/pexels-photo-17049701/free-photo-of-model-in-leather-jacket-and-sunglasses.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 3999,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Formal Pant",
+      "image": "https://images.pexels.com/photos/13311417/pexels-photo-13311417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 2199,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Fannel Shirt",
+      "image": "https://images.pexels.com/photos/20899137/pexels-photo-20899137/free-photo-of-model-in-plaid-flannel-shirt-and-jeans-on-white-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 2299,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.3
+    },
+    {
+      "id": 5,
+      "name": "Coat",
+      "image": "https://images.pexels.com/photos/22686650/pexels-photo-22686650/free-photo-of-woman-wearing-coat-on-a-street-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 2099,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.2
+    },
+    {
+      "id": 6,
+      "name": "Textured Jacket",
+      "image": "https://images.pexels.com/photos/19177429/pexels-photo-19177429/free-photo-of-woman-posing-in-white-jacket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 2899,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "name": "Cargo Pant",
+      "image": "https://images.pexels.com/photos/22856153/pexels-photo-22856153/free-photo-of-studio-shot-of-a-young-fashionable-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 2899,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "name": "Denim Jacket",
+      "image": "https://images.pexels.com/photos/27658392/pexels-photo-27658392/free-photo-of-a-man-wearing-a-hat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 1799,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.4
+    },
+    {
+      "id": 9,
+      "name": "Denim Pant",
+      "image": "https://images.pexels.com/photos/20715516/pexels-photo-20715516/free-photo-of-african-man-posing-in-denim-outfit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 2099,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.3
+    },
+    {
+      "id": 10,
+      "name": "Trucker Hat",
+      "image": "https://images.pexels.com/photos/9558758/pexels-photo-9558758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 1299,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad sequi minima tempore. Nesciunt, provident. Laborum error tempore at debitis ducimus, exercitationem qui quasi beatae fugit provident laudantium, quis vitae.",
+      "rating": 4.2
+    }
+  ]
+}
