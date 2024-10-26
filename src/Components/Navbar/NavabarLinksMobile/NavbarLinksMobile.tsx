@@ -6,26 +6,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { motion as m } from "framer-motion";
 import { signOut, useSession } from "next-auth/react";
-
-const variants = {
-  initial: {
-    y: "-100%",
-  },
-  enter: {
-    y: 0,
-    transition: {
-      duration: 1.33,
-      ease: [0.76, 0, 0.24, 1],
-    },
-  },
-  exit: {
-    y: "-100%",
-    transition: {
-      duration: 1.33,
-      ease: [0.76, 0, 0.24, 1],
-    },
-  },
-};
+import { mobileNavVariants } from "@/Animation/variants";
 
 const NavbarLinksMobile = () => {
   const [isActive, setActive] = useState<boolean>(false);
@@ -42,7 +23,7 @@ const NavbarLinksMobile = () => {
 
       <m.div
         key="navMenu"
-        variants={variants}
+        variants={mobileNavVariants}
         initial="initial"
         animate={isActive ? "enter" : "exit"}
         className="absolute top-0 flex flex-col h-screen w-full justify-center items-center bg-background"

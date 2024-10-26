@@ -3,58 +3,12 @@
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 import { motion as m } from "framer-motion";
-
-const textVariants = {
-  initial: {
-    opacity: 0,
-    y: "250%",
-  },
-  enter: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.82,
-      ease: [0.65, 0, 0.35, 1],
-      delay: 0.078 * i,
-    },
-  }),
-};
-
-const wrapperContainerVariants = {
-  enter: {
-    transition: {
-      staggerChildren: 0.14,
-    },
-  },
-};
-
-const subTextVariants = {
-  initial: {
-    opacity: 0,
-    y: "250%",
-  },
-  enter: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.82,
-      ease: [0.65, 0, 0.35, 1],
-    },
-  },
-};
-
-const buttonVariants = {
-  initial: {
-    opacity: 0,
-  },
-  enter: {
-    opacity: 1,
-    transition: {
-      duration: 1,
-      delay: 0.95,
-    },
-  },
-};
+import {
+  buttonVariants,
+  subTextVariants,
+  textVariants,
+  wrapperContainerVariants,
+} from "@/Animation/variants";
 
 const titles = ["Elevate", "Your", "Fashion"];
 

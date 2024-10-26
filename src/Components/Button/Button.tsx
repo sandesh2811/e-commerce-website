@@ -4,11 +4,6 @@ import React from "react";
 import { useAppDispatch } from "../../../store/store";
 import { addItem } from "../../../store/features/cartSlice";
 
-type PropsType = {
-  product: Product;
-  size: string;
-};
-
 const Button = ({ product, size }: PropsType) => {
   const dispatch = useAppDispatch();
 

@@ -6,10 +6,6 @@ import React from "react";
 import { useAppDispatch } from "../../../store/store";
 import { getSelectedProduct } from "../../../store/features/selectedProduct";
 
-type ProductProps = {
-  product: Product;
-};
-
 const ImageComponent = ({ product }: ProductProps) => {
   const dispatch = useAppDispatch();
 

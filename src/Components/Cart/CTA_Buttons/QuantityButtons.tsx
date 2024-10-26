@@ -6,11 +6,7 @@ import {
   removeItem,
 } from "../../../../store/features/cartSlice";
 
-type Props = {
-  item: CartItem;
-};
-
-const QuantityButtons = ({ item }: Props) => {
+const QuantityButtons = ({ item }: CartItemPropType) => {
   const dispatch = useAppDispatch();
 
   return (

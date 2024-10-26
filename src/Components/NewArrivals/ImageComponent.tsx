@@ -6,10 +6,6 @@ import React from "react";
 import { useAppDispatch } from "../../../store/store";
 import { getSelectedProduct } from "../../../store/features/selectedProduct";
 
-type NewArrivalProps = {
-  newArrival: Product;
-};
-
 const ImageComponent = ({ newArrival }: NewArrivalProps) => {
   const dispatch = useAppDispatch();
 

@@ -1,10 +1,6 @@
 import { addBlurredDataUrl } from "../../../_lib/getBase64";
 import ImageComponent from "./Image/ImageComponent";
 
-type ProductPropType = {
-  products: Product[];
-};
-
 const Product = async ({ products }: ProductPropType) => {
   const blurDataUrl = await addBlurredDataUrl(products);
 
